@@ -6,10 +6,20 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_Button</sprite>
+    <sprite>sprites\spr_Button_Animation</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_button</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_button</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
