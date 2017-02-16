@@ -23,6 +23,7 @@ Such as bandits attackings
 - [ ] Inventory
 - [ ] Characters
 - [ ] Random Events
+
 ###Completed
 - [ ] World Map
 - [ ] Game Map
