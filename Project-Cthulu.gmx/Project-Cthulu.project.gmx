@@ -12,6 +12,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_addButton.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\font_button</font>
   </fonts>
@@ -20,7 +23,7 @@
     <object>objects\obj_Menu_Manager</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\room_mainMenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

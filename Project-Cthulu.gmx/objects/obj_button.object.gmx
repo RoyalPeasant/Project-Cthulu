@@ -30,6 +30,7 @@ animationOn = false
 buttonText = "Default"
 buttonAction = 0
 image_speed = 1.8
+menuState = MenuState.None;
 
 enum Action { Nothing = 0, Start = 1, Quit = 2, Setting = 3}
 </string>
@@ -133,19 +134,20 @@ if(animationOn)
           <argument>
             <kind>1</kind>
             <string>///Do button checks
-
-if(buttonAction == Action.Start)
+if(obj_Menu_Manager.menuState == menuState)
 {
-    //START GAME
-}else if(buttonAction == Action.Quit)
-{
-    game_end()
-}else if(buttonAction == Action.Setting)
-{
-
+    if(buttonAction == Action.Start)
+    {
+        //START GAME
+        //Used function: room_goto(TARGET ROOM)
+    }else if(buttonAction == Action.Quit)
+    {
+        game_end()
+    }else if(buttonAction == Action.Setting)
+    {
+    
+    }
 }
-
-
 </string>
           </argument>
         </arguments>
@@ -169,13 +171,15 @@ if(buttonAction == Action.Start)
           <argument>
             <kind>1</kind>
             <string>///DRAW TEXT
-draw_self()
-draw_set_font(font_button)
-draw_set_colour(c_white)
-draw_set_halign(fa_center)
-draw_set_valign(fa_middle)
-draw_text(x, y, buttonText)
-
+if(obj_Menu_Manager.menuState == menuState)
+{
+    draw_self()
+    draw_set_font(font_button)
+    draw_set_colour(c_white)
+    draw_set_halign(fa_center)
+    draw_set_valign(fa_middle)
+    draw_text(x, y, buttonText)
+}
 </string>
           </argument>
         </arguments>

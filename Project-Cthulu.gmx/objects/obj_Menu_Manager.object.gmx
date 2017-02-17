@@ -26,16 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>///Create menu buttons
+//Set menu State
+enum MenuState {None, Main, Settings};
+menuState = MenuState.Main;
 
 //Create Start Button
-newButton = instance_create(x, y+sprite_height/2+sprite_get_height(spr_Button), obj_button);
-newButton.buttonText = "Start";
-newButton.buttonAction = Action.Start;
-
+scr_addButton(1, "Start", Action.Start, MenuState.Main);
 //Create Quit Button
-newButton = instance_create(x, y+sprite_height/2+sprite_get_height(spr_Button)*2.5, obj_button);
-newButton.buttonText = "Quit";
-newButton.buttonAction = Action.Quit;
+scr_addButton(2, "Quit", Action.Quit, MenuState.Main);
 </string>
           </argument>
         </arguments>
