@@ -19,11 +19,14 @@
     <font>fonts\font_button</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_button</object>
     <object>objects\obj_Menu_Manager</object>
+    <object>objects\obj_button</object>
+    <object>objects\obj_PlayerData</object>
+    <object>objects\character</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainMenu</room>
+    <room>rooms\room_NewGame</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

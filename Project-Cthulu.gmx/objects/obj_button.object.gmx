@@ -140,6 +140,7 @@ if(obj_Menu_Manager.menuState == menuState)
     {
         //START GAME
         //Used function: room_goto(TARGET ROOM)
+        room_goto(room_NewGame)
     }else if(buttonAction == Action.Quit)
     {
         game_end()
