@@ -6,6 +6,7 @@ Used for @RoyalPeasant for his Genuis Hour Project
 ###World Map
 Allow you to travel across the game world but you'll need to make sure you have enough rations.
 ###Game Map
+The game map is where you will fight battles useing an attack system similiar to D&D with movement and attacking being limited by number of ability points on a multilayer map.
 ###Town Menu
 Come here to use buy items with money such as potions. Also in town, you'll be able to find people for hire to be part of your party.
 ###Inventory
