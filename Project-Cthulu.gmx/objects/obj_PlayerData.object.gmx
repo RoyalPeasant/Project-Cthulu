@@ -27,11 +27,11 @@
             <kind>1</kind>
             <string>startingPartySize = 3 
 partySize = 0 
+show_message(scr_getItemName(5))
 while(partySize &lt; startingPartySize)
 {
-party[partySize] = instance_create(0,0, character)
-
-
+partyMember[partySize] = instance_create(0,0, character) //Create new partymemebr charecter sheet
+partyMember[partySize].Name = get_string("What is Char #"+string(partySize+1)+" name?", partyMember[partySize].Name); //Player change character name
 
 
 partySize = partySize+1 

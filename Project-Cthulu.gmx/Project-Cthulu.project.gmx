@@ -9,11 +9,17 @@
     <sprite>sprites\spr_Button</sprite>
     <sprite>sprites\spr_Button_Animation</sprite>
     <sprite>sprites\spr_Logo</sprite>
+    <sprite>sprites\spr_Slot</sprite>
+    <sprite>sprites\spr_item</sprite>
+    <sprite>sprites\spr_NameSlot</sprite>
+    <sprite>sprites\spr_Stats_</sprite>
+    <sprite>sprites\spr_Plus</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_addButton.gml</script>
+    <script>scripts\scr_getItemName.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_button</font>
