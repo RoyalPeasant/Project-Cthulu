@@ -32,6 +32,8 @@ menuState = MenuState.Main;
 
 //Create Start Button
 scr_addButton(1, "Start", Action.Start, MenuState.Main);
+//Create Setting Button
+scr_addButton(3, "Setting", Action.Setting, MenuState.Main);
 //Create Quit Button
 scr_addButton(2, "Quit", Action.Quit, MenuState.Main);
 </string>

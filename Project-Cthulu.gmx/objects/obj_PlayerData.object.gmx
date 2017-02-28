@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>startingPartySize = 3 
 partySize = 0 
-show_message(scr_getItemName(5))
 while(partySize &lt; startingPartySize)
 {
 partyMember[partySize] = instance_create(0,0, character) //Create new partymemebr charecter sheet
