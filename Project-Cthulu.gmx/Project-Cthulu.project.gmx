@@ -20,6 +20,7 @@
   <scripts name="scripts">
     <script>scripts\scr_addButton.gml</script>
     <script>scripts\scr_getItemName.gml</script>
+    <script>scripts\scr_Random_Value.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_button</font>
@@ -33,6 +34,7 @@
   <rooms name="rooms">
     <room>rooms\room_mainMenu</room>
     <room>rooms\room_NewGame</room>
+    <room>rooms\room_wrold</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

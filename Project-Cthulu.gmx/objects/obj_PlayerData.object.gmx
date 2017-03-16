@@ -33,6 +33,16 @@ while(partySize &lt; startingPartySize)
 partyMember[partySize] = instance_create(0,0, character) //Create new partymemebr charecter sheet
 partyMember[partySize].Name = get_string("What is Char #"+string(partySize+1)+" name?", partyMember[partySize].Name); //Player change character name
 
+//Randomize stats 
+partyMember[partySize].Stat[Stats.Str] = random_range(1, 10);
+partyMember[partySize].Stat[Stats.Agl] = random_range(1, 10);
+partyMember[partySize].Stat[Stats.HP] = random_range(1, 10);
+partyMember[partySize].Stat[Stats.AP] = random_range(1, 10);
+partyMember[partySize].Stat[Stats.Armor] = random_range(1, 10);
+
+//give equitment
+partyMember[partySize].Inventory[0]= scr_Random_Value(1, 3);
+partyMember[partySize].Inventory[1]= scr_Random_Value(2, 4);
 
 partySize = partySize+1 
 }
