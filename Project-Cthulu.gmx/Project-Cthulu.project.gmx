@@ -12,8 +12,10 @@
     <sprite>sprites\spr_Slot</sprite>
     <sprite>sprites\spr_item</sprite>
     <sprite>sprites\spr_NameSlot</sprite>
-    <sprite>sprites\spr_Stats_</sprite>
+    <sprite>sprites\spr_Stats</sprite>
     <sprite>sprites\spr_Plus</sprite>
+    <sprite>sprites\spr_plains</sprite>
+    <sprite>sprites\spr_top_layer</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
